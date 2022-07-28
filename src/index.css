@@ -135,5 +135,24 @@ tr:hover {background-color: rgb(80, 185, 255);}
   font-size: large;
 }
 
+.form > button{
+  background-color: rgb(6, 143, 255);
+  color: white;
+  padding: 14px 40px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 3px;
+  width: 100%;
+  text-decoration: none;
+  font-style: bold;
+  font-size: large;
+  display: inline-block;
+}
+
+.form > button:hover, .form > button:active{
+  background-color: #04aa36;
+}
+  
 
   
