@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import Address from "./Address";
+import Search from "./Search";
 
-function AddressList({addresses}){
-    console.log(addresses);
-    
+function AddressList({addresses, setCurrentItem, handleFilteredData, handleDelete}){
+    //console.log(addresses);
     return(
         <div>
-            <h2>Address List</h2>
-            <table className="ui celled striped padded table">
+            <Search addresses={addresses} handleSearchData={handleFilteredData} />
+            <h2>ADDRESS LIST</h2>
+            <table>
                 <tbody>
                     <tr>
                     <th>
@@ -40,7 +41,8 @@ function AddressList({addresses}){
                     cell={address.cell}
                     address={address.address}
                     email={address.email}
-                    edit={<Link to={`editAddress/${address.id}`}>Edit</Link>}
+                    edit={<Link className={"editlink"} to={`editAddress`} onClick={()=>setCurrentItem(address)}>Edit</Link>}
+                    deletebtn={<button className={"deletebtn"} onClick={()=>{handleDelete(address.id)}}>Delete</button>}
                     />)}
                 </tbody>
             </table>

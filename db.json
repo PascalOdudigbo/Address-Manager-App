@@ -1,70 +1,76 @@
 {
-    "addresses": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "work": "(254)7093275679",
-        "cell": "(231)8099983058",
-        "address": "B01 8M, Nairobi, Kenya", 
-        "email": "johndoe@gmail.com"
-      },
-      {
-        "id": 2,
-        "name": "Rose Mary",
-        "work": "(254)7073265639",
-        "cell": "(234)8078783050",
-        "address": "A03 7M, Nairobi, Kenya", 
-        "email": "rosemary@gmail.com"
-      },
-      {
-        "id": 3,
-        "name": "Ralph Bolt",
-        "work": "(254)7073975870",
-        "cell": "(254)7099980061",
-        "address": "A03 2M, Nairobi, Kenya", 
-        "email": "ralphbolt@gmail.com"
-      },
-      {
-        "id": 4,
-        "name": "Lauren Stallion",
-        "work": "(254)7019075321",
-        "cell": "(234)8099983058",
-        "address": "B01 3M, Nairobi, Kenya", 
-        "email": "laurenstallion@gmail.com"
-      },
-      {
-        "id": 5,
-        "name": "Oxy Percocets",
-        "work": "(254)7083279259",
-        "cell": "(031)7098953028",
-        "address": "A02 5M, Nairobi, Kenya", 
-        "email": "oxypercocets@gmail.com"
-      },
-      {
-        "id": 6,
-        "name": "Evans Mwangi",
-        "work": "(254)7933275687",
-        "cell": "(251)7092983898",
-        "address": "C03 2A, Nairobi, Kenya", 
-        "email": "evansmwangi@gmail.com"
-      },
-      {
-        "id": 7,
-        "name": "Sialo Tobiko",
-        "work": "(254)7933275687",
-        "cell": "(251)7092983898",
-        "address": "C01 1A, Nairobi, Kenya", 
-        "email": "sialotobiko@gmail.com"
-      }, 
-      {
-        "id": 8,
-        "name": "Mutharia Ian",
-        "work": "(254)7835272689",
-        "cell": "(251)7092963828",
-        "address": "C05 2A, Nairobi, Kenya", 
-        "email": "muthariaian@gmail.com"
-      }
-
-    ]
+  "addresses": [
+    {
+      "name": "John Mark",
+      "work": "(254)7093275679",
+      "cell": "(231)8099983058",
+      "address": "B01 8M, Nairobi, Kenya",
+      "email": "johnmark@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Rose Mary",
+      "work": "(254)7073265639",
+      "cell": "(234)8078783050",
+      "address": "A03 7M, Nairobi, Kenya",
+      "email": "rosemary@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Ralph Carlos",
+      "work": "(254)7073975870",
+      "cell": "(254)7099980061",
+      "address": "A03 2M, Nairobi, Kenya",
+      "email": "ralphcarlos@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Lauren Stallion",
+      "work": "(254)7019075321",
+      "cell": "(234)8099983058",
+      "address": "B01 3M, Nairobi, Kenya",
+      "email": "laurenstallion@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Coca Percocets",
+      "work": "(254)7083279259",
+      "cell": "(031)7098953028",
+      "address": "A02 5M, Nairobi, Kenya",
+      "email": "cocapercocets@gmail.com",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Evans Mwangi",
+      "work": "(254)7933275687",
+      "cell": "(251)7092983898",
+      "address": "C03 2A, Nairobi, Kenya",
+      "email": "evansmwangi@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Sialo Tobiko",
+      "work": "(254)7933275687",
+      "cell": "(251)7092983898",
+      "address": "C01 1A, Nairobi, Kenya",
+      "email": "sialotobiko@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Mutharia Ian",
+      "work": "(254)7835272689",
+      "cell": "(251)7092963828",
+      "address": "C05 2A, Nairobi, Kenya",
+      "email": "muthariaian@gmail.com"
+    },
+    {
+      "name": "Jermaine Cole",
+      "work": "(254)7892024950",
+      "cell": "(234)8092570935",
+      "address": "C05 5M, Nairobi, Kenya",
+      "email": "jermainecole@gmail.com",
+      "id": 9
+    }
+  ]
 }
-  

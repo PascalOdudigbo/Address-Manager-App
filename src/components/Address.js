@@ -1,6 +1,6 @@
 import React from "react";
 
-function Address({id, name, work, cell, address, email, edit}) {
+function Address({id, name, work, cell, address, email, edit, deletebtn}) {
   return (
     <tr id={id}>
       <td>{name}</td>
@@ -9,7 +9,7 @@ function Address({id, name, work, cell, address, email, edit}) {
       <td>{address}</td>
       <td>{email}</td>
       <td>{edit}</td>
-      <td>{"your delete button here..."}</td>
+      <td>{deletebtn}</td>
     </tr>
   );
 }
