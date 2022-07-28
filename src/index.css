@@ -88,5 +88,25 @@ td {
   border-bottom: 2px solid rgb(6, 143, 255);
 }
 tr:nth-child(even) {background-color: #ebebeb;}
+
 tr:hover {background-color: rgb(80, 185, 255);}
+
+.editlink{
+  background-color: rgb(6, 143, 255);
+  color: white;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 3px;
+  text-decoration: none;
+  font-style: bold;
+  display: inline-block;
+}
+
+.editlink:hover, .editlink:active .editlink:visited {
+  background-color: #04aa36;
+}
+
+
   
