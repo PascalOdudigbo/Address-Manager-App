@@ -81,3 +81,12 @@ th {
   background-color: #0476aa;
   color: white;
 }
+
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid rgb(6, 143, 255);
+}
+tr:nth-child(even) {background-color: #ebebeb;}
+tr:hover {background-color: rgb(80, 185, 255);}
+  
