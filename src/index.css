@@ -36,3 +36,7 @@ text-align: center;
   font-style: bold;
   display: inline-block;
 }
+
+.link:hover, .link:active .link:visited {
+  background-color: #0476aa;
+}
