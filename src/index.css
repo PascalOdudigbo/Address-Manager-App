@@ -10,7 +10,7 @@ h1{
   }
 
 h2{
-text-align: center;
+  text-align: center;
 }
 
 .navbar{
@@ -19,8 +19,7 @@ text-align: center;
   padding: 0;
   background-color: #333;
   align-items: center;
-  height: 42px;
-  
+  height: 42px; 
 }
 
 .link {
@@ -39,4 +38,10 @@ text-align: center;
 
 .link:hover, .link:active .link:visited {
   background-color: #0476aa;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  min-width: 100px;
 }
