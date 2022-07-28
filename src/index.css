@@ -125,5 +125,15 @@ tr:hover {background-color: rgb(80, 185, 255);}
   background-color: #aa1d04;
 }
 
+.form > input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: large;
+}
+
 
   
