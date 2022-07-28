@@ -36,7 +36,7 @@ function EditAddressForm({targetAddress, handleDataEdit}) {
             address: address, 
             email: email
         } 
-        fetch(`http://localhost:8001/addresses/${targetAddress.id}`, {
+        fetch(`https://fathomless-garden-99838.herokuapp.com/addresses/${targetAddress.id}`, {
             method: "PUT",
             headers:{
                 "Content-Type": "application/json"

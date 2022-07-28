@@ -34,7 +34,7 @@ function AddAddressForm({handleAddAddress}) {
       email: email
     }
     event.preventDefault();
-    fetch("http://localhost:8001/addresses", {
+    fetch("https://fathomless-garden-99838.herokuapp.com/addresses", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

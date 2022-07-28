@@ -11,14 +11,14 @@ function App() {
     const history = useNavigate();
 
     useEffect(()=>{
-        fetch("http://localhost:8001/addresses")
+        fetch("https://fathomless-garden-99838.herokuapp.com/addresses")
         .then(response => response.json())
         .then(addresses => setAddressData(addresses));
     },[]);
 
     function handleFilteredData(searchData){
         if(searchData === ""){
-            fetch("http://localhost:8001/addresses")
+            fetch("https://fathomless-garden-99838.herokuapp.com/addresses")
             .then(response => response.json())
             .then(addresses => setAddressData(addresses));
         }else{
@@ -36,14 +36,14 @@ function App() {
     function handleAddressDelete(id){
         //console.log("called deletion");
         //const targetAddressId = event.target.parentNode.parentNode.id;
-        fetch(`http://localhost:8001/addresses/${id}`, {
+        fetch(`https://fathomless-garden-99838.herokuapp.com/addresses/${id}`, {
             method: "DELETE"
         })
         const newAddressData = addressData.filter(address=> address.id !== id);
         setAddressData(newAddressData);
     }
     function handleAddressEdit(){
-        fetch("http://localhost:8001/addresses")
+        fetch("https://fathomless-garden-99838.herokuapp.com/addresses")
         .then(response => response.json())
         .then(addresses => setAddressData(addresses));
         history("/allAddresses");
