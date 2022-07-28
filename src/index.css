@@ -21,4 +21,18 @@ text-align: center;
   align-items: center;
   height: 42px;
   
-  }
+}
+
+.link {
+  background-color: rgb(6, 143, 255);
+  color: white;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 3px;
+  margin-left: 28%;
+  text-decoration: none;
+  font-style: bold;
+  display: inline-block;
+}
